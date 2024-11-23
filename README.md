@@ -24,7 +24,8 @@ We then deploy the App using Docker containers that are orchestrated with Docker
 ## Data
 The Hospital System Data is stored in CSV files, namely:
 `hospitals.csv`,`patients.csv` ,`payers.csv`, `physicians.csv` , `reviews.csv` , `visits.csv`
-All of the data in this app a used synthetically generated, and much of it was derived from a popular [health care dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) on Kaggle. This data specifically comes from https://realpython.com/ 
+
+All of the data in this app a used synthetically generated, and much of it was derived from a popular [health care dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) on Kaggle. This data specifically, comes from https://realpython.com
 
 To store our CSV tabular data, this app uses a Graph Database rather than a Relational Database.
 
@@ -34,3 +35,6 @@ Simple data representation, handles cpmlex relationships efficiently, flexible t
 
 # Future updates:
 A memory feature will be added, to allow the Chatbot to recall past interactions that users have had with it. This will improve user experience and improve the Apps efficiency 
+
+#### Credits:
+This app was inspired by Real Python's LLM RAG Chatbot Tutorial
