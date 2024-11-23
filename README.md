@@ -26,5 +26,6 @@ All of the data in this app a used synthetically generated, and much of it was d
 
 To store our CSV tabular data, this app uses a Graph Database rather than a Relational Database.
 
-Graph Database benefits:
+#### Graph Database benefits:
+
 Simple data representation, handles cpmlex relationships efficiently, flexible to changes, faster performance than relational dbs, they allow pattern matching queries for data with numerous complex relationships, graph databases offer simplicity and flexibility, making them easier to design and query than relational databases
