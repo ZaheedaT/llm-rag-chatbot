@@ -22,6 +22,8 @@ We serve the LangChain Agent using FastAPI and using Streamlit to easily create 
 We then deploy the App using Docker containers that are orchestrated with Docker Compose.
 
 ## Data
+The Hospital System Data is stored in CSV files, namely:
+`hospitals.csv`,`patients.csv` ,`payers.csv`, `physicians.csv` , `reviews.csv` , `visits.csv`
 All of the data in this app a used synthetically generated, and much of it was derived from a popular [health care dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) on Kaggle. This data specifically comes from https://realpython.com/ 
 
 To store our CSV tabular data, this app uses a Graph Database rather than a Relational Database.
@@ -29,3 +31,6 @@ To store our CSV tabular data, this app uses a Graph Database rather than a Rela
 #### Graph Database benefits:
 
 Simple data representation, handles cpmlex relationships efficiently, flexible to changes, faster performance than relational dbs, they allow pattern matching queries for data with numerous complex relationships, graph databases offer simplicity and flexibility, making them easier to design and query than relational databases
+
+# Future updates:
+A memory feature will be added, to allow the Chatbot to recall past interactions that users have had with it. This will improve user experience and improve the Apps efficiency 
