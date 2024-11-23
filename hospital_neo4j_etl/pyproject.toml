@@ -1,0 +1,13 @@
+# provides configuration, metadata and dependencies in TOML format
+
+
+[project]
+name = "hospital_neo4j_etl"
+version = "0.1"
+dependencies = [
+   "neo4j==5.14.1",
+   "retry==0.9.2"
+]
+
+[project.optional-dependencies]
+dev = ["black", "flake8"]
