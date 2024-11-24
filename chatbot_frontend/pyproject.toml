@@ -8,3 +8,4 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["black", "flake8"]
+

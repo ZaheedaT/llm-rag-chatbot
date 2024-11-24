@@ -1,0 +1,6 @@
+chroma_data/
+llm-rag-venv/
+*.env
+notebooks/
+eda/
+todo.md
